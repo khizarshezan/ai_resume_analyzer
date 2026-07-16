@@ -13,11 +13,13 @@ UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # CONFIG
+import os
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'root1234',
-    'database': 'khizar_portfolio'
+    'host': os.environ.get('MYSQL_HOST'),
+    'user': os.environ.get('MYSQL_USER'),
+    'password': os.environ.get('MYSQL_PASSWORD'),
+    'database': os.environ.get('MYSQL_DATABASE'),
+    'port': int(os.environ.get('MYSQL_PORT', 3306))
 }
 
 # SKILLS DATABASE
