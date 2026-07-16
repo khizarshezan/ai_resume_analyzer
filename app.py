@@ -1,6 +1,4 @@
-# ============================================
-# Project 4: AI-Powered Resume Analyzer
-# ============================================
+# RESUME ANALYSER
 
 from flask import Flask, render_template, request, jsonify
 import PyPDF2
@@ -14,7 +12,7 @@ app.secret_key = 'Khizar@Dev2024'
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# ---- DATABASE CONFIG ----
+# CONFIG
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
@@ -22,7 +20,7 @@ DB_CONFIG = {
     'database': 'khizar_portfolio'
 }
 
-# ---- SKILLS DATABASE ----
+# SKILLS DATABASE
 SKILL_KEYWORDS = {
     'Programming Languages': ['python', 'java', 'javascript', 'c++', 'c#', 'php', 'ruby', 'swift', 'kotlin', 'r'],
     'Web Development': ['html', 'css', 'react', 'angular', 'vue', 'node', 'flask', 'django', 'bootstrap'],
