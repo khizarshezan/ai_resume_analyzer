@@ -17,8 +17,5 @@ A web application that analyzes resumes against job descriptions and provides a 
 - **MySQL** — Store analysis results
 - **Bootstrap** — Frontend styling
 
-## How to Run
-1. Install requirements: `pip install flask PyPDF2 mysql-connector-python`
-2. Start MySQL service
-3. Run `python app.py`
-4. Open `http://localhost:5000`
+## link
+- https://ai-ana.up.railway.app
