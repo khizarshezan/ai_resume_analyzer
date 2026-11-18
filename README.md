@@ -1,7 +1,7 @@
 # AI-Powered Resume Analyzer
 
 ## Overview
-A web application that analyzes resumes against job descriptions and provides a match score with detailed skill gap analysis.
+A web application that analyzes resumes against job descriptions and provides a match score with detailed skill gap analysis with the help of AI.
 
 ## Features
 - Upload resume as PDF
